@@ -1,0 +1,4 @@
+interface:
+  display_name: "Debugging"
+  short_description: "Root-cause debugging for code failures"
+  default_prompt: "Use $debugging to find the root cause of the failure before changing code."

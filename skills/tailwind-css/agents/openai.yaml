@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tailwind CSS"
+  short_description: "Tailwind utility discipline for UI work"
+  default_prompt: "Use $tailwind-css to keep Tailwind UI work consistent and responsive."

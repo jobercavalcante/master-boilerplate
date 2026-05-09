@@ -1,0 +1,4 @@
+interface:
+  display_name: "PHP Laravel"
+  short_description: "Laravel controllers, models, requests, tests"
+  default_prompt: "Use $php-laravel to keep a Laravel change disciplined, thin, and well tested."

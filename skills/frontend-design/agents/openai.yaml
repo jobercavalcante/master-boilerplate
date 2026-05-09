@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Design"
+  short_description: "High-quality React/Inertia UI direction"
+  default_prompt: "Use $frontend-design to shape a polished React/Inertia interface with clear visual direction."

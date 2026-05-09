@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laravel Inertia Feature"
+  short_description: "Build Laravel and Inertia features coherently"
+  default_prompt: "Use $laravel-inertia-feature to implement a Laravel/Inertia feature end to end."

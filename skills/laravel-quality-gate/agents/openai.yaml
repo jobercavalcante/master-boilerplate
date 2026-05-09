@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laravel Quality Gate"
+  short_description: "Run focused tests and build checks for Laravel"
+  default_prompt: "Use $laravel-quality-gate to validate a Laravel/Inertia change before finishing."

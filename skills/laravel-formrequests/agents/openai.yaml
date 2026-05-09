@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laravel FormRequests"
+  short_description: "Extract validation from Laravel controllers"
+  default_prompt: "Use $laravel-formrequests to move controller validation into FormRequest classes."

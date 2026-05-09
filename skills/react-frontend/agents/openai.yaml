@@ -1,0 +1,4 @@
+interface:
+  display_name: "React Frontend"
+  short_description: "React component and state discipline"
+  default_prompt: "Use $react-frontend to implement React/Inertia state and component logic cleanly."

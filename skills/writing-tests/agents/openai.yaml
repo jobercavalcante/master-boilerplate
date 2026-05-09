@@ -1,0 +1,4 @@
+interface:
+  display_name: "Writing Tests"
+  short_description: "Behavior-first tests for code changes"
+  default_prompt: "Use $writing-tests to write tests that protect the behavior of this change."
