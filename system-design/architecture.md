@@ -10,11 +10,27 @@ A interface adota de forma pesada o conceito de **Glassmorphism**, criando profu
 - **Bordas Delicadas**: Uso de bordas sutis com opacidade reduzida (`border-white/10` ou `border-gray-200/50`) para demarcar os limites do "vidro" sem sobrecarregar a visão.
 - **Sombreamento Suave**: Aplicação de sombras multicamadas (soft shadows) que dão a sensação de elementos flutuando sobre o background.
 
-### 2. Paleta de Cores e Tematização
-A paleta de cores foi meticulosamente definida para garantir contraste acessível e um visual impactante, suportando tanto Light Mode quanto Dark Mode:
-- **Cores Primárias (Brand)**: Tons vibrantes (como o *Pink Theme* moderno) que guiam as ações primárias, estados ativos e botões de destaque. As cores possuem variações (do `50` ao `900` em escala HSL ou RGB) para garantir flexibilidade em estados de `:hover` e `:active`.
+### 2. Paleta de Cores e Design Tokens (Exemplo: Pink Theme)
+A paleta de cores foi meticulosamente definida em tokens (variáveis CSS/Tailwind) para garantir contraste acessível e um visual impactante, suportando tanto Light Mode quanto Dark Mode. 
+
+Abaixo estão as paletas padrão (Design Tokens) fornecidas por este boilerplate:
+
+#### Brand Colors (Pink Theme)
+Utilizada para guiar as ações primárias, botões de destaque, anéis de foco (rings) e links ativos. O tema rosa traz uma estética vibrante, luxuosa e moderna.
+- `brand-50`: `#fdf2f8` (Fundos sutis / Light mode surfaces)
+- `brand-100`: `#fce7f3` 
+- `brand-500`: `#ec4899` (Cor base primária / Primary buttons)
+- `brand-600`: `#db2777` (Hover buttons)
+- `brand-900`: `#831843` (Textos de forte contraste)
+
+#### Neutral Colors (Zinc/Slate)
+Utilizadas para tipografia, bordas sutis do Glassmorphism e backgrounds gerais. No Dark Mode, os tons de base evitam o preto absoluto (`#000000`), optando por cinzas muito escuros (Slate) para não forçar a visão.
+- `surface-light`: `#f8fafc` (Background base Light Mode)
+- `surface-dark`: `#0f172a` (Background base Dark Mode)
+- `border-glass`: `rgba(255, 255, 255, 0.1)` (Bordas de modais/cards no Dark Mode)
+- `text-primary`: `#1e293b` (Light) / `#f1f5f9` (Dark)
+
 - **Backgrounds Multidimensionais**: Fuga de fundos sólidos simples. O background principal geralmente emprega gradientes radiais ou lineares muito sutis que reagem à rolagem, ou texturas abstratas modernas que o glassmorphism deixa transparecer.
-- **Tons Neutros (Slate/Gray/Zinc)**: Para tipografia e contornos, garantindo máxima legibilidade. No Dark Mode, os tons de base evitam o preto absoluto (`#000000`), optando por azuis profundos ou cinzas muito escuros (ex: `#0f172a`).
 
 ### 3. Componentes Interativos e Botões
 - **Botões (Buttons)**: Não são elementos chapados. Possuem micro-animações no `:hover` (leve `scale-up` ou aumento de brilho), transições suaves de cor e estados desabilitados visualmente distintos. Botões primários usam gradientes ou brilho interno para parecerem táteis.
